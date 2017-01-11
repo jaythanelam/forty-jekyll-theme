@@ -1,33 +1,36 @@
-# Site settings
+---
 title: JDE
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 subtitle: a digital portfolio
 email: jaythan@jointley.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/portfolio/" # the subpath of your site, e.g. /blog
-url: "https://jaythanelam.github.io" # the base hostname & protocol for your site
-author:
+description: A responsive site template designed by HTML5 Up<br /> and released under
+  the Creative Commons.
+baseurl: "/portfolio/"
+url: https://jaythanelam.github.io
+author: 
 street_address: 7712 Royal Harbour Circle
 city: Oolteway
 state: TN
 zip_code: 37363
 country: United States of America
-phone: (571) 428-7176
-
-# Homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
+phone: "(571) 428-7176"
+tiles-source: posts
 tiles-count: 6
-
-# Social settings
-500px_url:
-facebook_url:
-github_url:
+500px_url: 
+facebook_url: 
+github_url: 
 gitlab_url: https://gitlab.com/u/jaythanelam
 googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
 instagram_url: https://instagram.com
 linkedin_url: https://www.linkedin.com/in/jaythan
-pinterest_url:
-slack_url:
+pinterest_url: 
+slack_url: 
 twitter_url: https://twitter.com/jaythan
-
-# Build settings
 markdown: kramdown
